@@ -95,7 +95,7 @@ ul{
 
 .small-bold-text{
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .container{
@@ -129,4 +129,27 @@ ul{
 .nav-links ul{
  justify-content: end;
  gap:40px;
+}
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section{
+    justify-content: center;
+    gap:50px; 
+}
+.header-left{
+    max-width: 40vw;;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+
+.header-right img{
+    max-width: 600px;
+}
+
+.get-started-button{
+    margin-top: 20px;
 }
